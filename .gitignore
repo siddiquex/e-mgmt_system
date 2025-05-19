@@ -1,0 +1,45 @@
+__pycache__/
+*.pyc
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info
+
+# Database
+*.sqlite
+/app/mydatabase.db # If you're using SQLite
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*~
+tmp/
+temp/
+/out
+/build
+/dist
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Docker
+/data # Exclude the data directory, if you have one
+.dockerignore
+/docker-compose.override.yml #exclude docker compose override
+
+# Logs
+*.log
+logs/
+/reports
+
+# OS
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+#Secrets
+.env
+/config.py # If you have a separate config file with secrets
+
