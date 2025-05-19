@@ -9,8 +9,8 @@ This service provides a RESTful API for managing an e-commerce management system
 1.  **Clone the repository:**
 
     ```bash
-    git clone `the repo url`
-    cd `the repo name`
+    git clone https://github.com/siddiquex/e-mgmt_system
+    cd e-mgmt_system
     ```
 
 2.  **Create a virtual environment:**
